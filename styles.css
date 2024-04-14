@@ -10,17 +10,7 @@ nav div {
     animation-name: menu-animation;
     animation-duration: 1s;
 }
-/*
-@keyframes menu-animation {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(20px);
-    }
-    
-}
-*/
+
 nav div p {
     margin-left: 1rem;
     font-style: italic;
@@ -72,10 +62,10 @@ nav div ul li a:active {
 }
 @keyframes content-animation {
     0% {
-        transform: translateX(-10px);
+        transform: translateX(-100px);
     }
     100% {
-        transform: translateX(20px);
+        transform: translateX(0px);
     }
     
 }
@@ -85,19 +75,7 @@ nav div ul li a:active {
 .content p {
     font-size: 1.2rem;
 }
-/*
-.receipe::before{
-    z-index: -1;
-    position: absolute;
-    content: "";
-    background-color: blueviolet;
-    width: 31.2rem;
-    height: 30.2rem;
-    border-radius: 50%;
-    right: -3px;
-    filter: blur(30px);
-}
-*/
+
 .receipe img{
     margin-top: 1rem;
     border-radius: 4rem;
@@ -108,10 +86,10 @@ nav div ul li a:active {
 }
 @keyframes image-animation {
     0% {
-        transform: translateX(-10px);
+        transform: translateX(100px);
     }
     100% {
-        transform: translateX(-20px);
+        transform: translateX(0px);
     }
     
 }
